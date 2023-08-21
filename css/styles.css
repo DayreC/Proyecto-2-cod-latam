@@ -192,7 +192,7 @@ h2 {
 }    
 /*hover para el boton de descarga de CV*/
 .boton:hover{
-background-color: #eb89d7;
+background-color: rgb(203, 108, 247);
 font-size : x-large;
 }
 
@@ -217,12 +217,13 @@ p { margin-top: 20px;
     color: #0f0f0f;
     border-radius: 15px;
     padding: 15px;
+    max-width: 1400px;
 }
 /* con esto es para poner los iconos de RRSS separaditos uno al lado del otro*/
 
 #icon{
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 /*tamaño y propiedades delos iconos de RRSS*/
 .iconos{
@@ -232,7 +233,7 @@ p { margin-top: 20px;
 }
 /*pie de página*/
 footer{
-    background-color: #af599e;
+    background-color: #eb89d7;
     color: #fbfbfb;
     height: 90px;
     text-align: center;
@@ -373,9 +374,14 @@ main{
     padding: 50px;
 }
 .iconos{
-    margin: 200px;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
     width:100px;
     height: 100px;
+}
+.p-inicio{
+    max-width: 1000px;
 }
 }
 
